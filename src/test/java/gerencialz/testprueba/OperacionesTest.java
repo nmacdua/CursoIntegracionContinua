@@ -51,7 +51,7 @@ public class OperacionesTest
     public void pruebaDeMultiplicacion3Test()
     {
         assertEquals("La multiplicación ha dejado de ser correcta", 1, Operaciones.multiplicacion(1, 1));
-        assertEquals("La multiplicación ha dejado de ser correcta", 0, Operaciones.multiplicacion(0, 1000));
+        assertEquals("La multiplicación ha dejado de ser correcta", 0, Operaciones.multiplicacion(0, 10000));
     }
     
     @Test
