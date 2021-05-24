@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gerencialz.testprueba.AppTest" time="0.195" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gerencialz.testprueba.AppTest" time="0.18" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\785536~1\AppData\Local\Temp\surefire2725946381449071222\surefirebooter852416081359777977.jar C:\Users\78553633p\AppData\Local\Temp\surefire2725946381449071222 2021-05-24T10-18-08_411-jvmRun1 surefire9292195578422588387tmp surefire_05323414718407479467tmp"/>
+    <property name="sun.java.command" value="C:\Users\785536~1\AppData\Local\Temp\surefire10759254359521623563\surefirebooter17684410664770559300.jar C:\Users\78553633p\AppData\Local\Temp\surefire10759254359521623563 2021-05-24T10-21-34_305-jvmRun1 surefire13619906156641131924tmp surefire_011232647039822492346tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\78553633p\eclipse-workspace\CursoIntegracionContinua\target\test-classes;C:\Users\78553633p\eclipse-workspace\CursoIntegracionContinua\target\classes;C:\Users\78553633p\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\78553633p\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\785536~1\AppData\Local\Temp\surefire2725946381449071222\surefirebooter852416081359777977.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\785536~1\AppData\Local\Temp\surefire10759254359521623563\surefirebooter17684410664770559300.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -55,11 +55,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="gerencialz.testprueba.AppTest" time="0.004"/>
-  <testcase name="pruebaDeSuma1Test" classname="gerencialz.testprueba.AppTest" time="0.056"/>
+  <testcase name="shouldAnswerWithTrue" classname="gerencialz.testprueba.AppTest" time="0.002"/>
+  <testcase name="pruebaDeSuma1Test" classname="gerencialz.testprueba.AppTest" time="0.041"/>
   <testcase name="pruebaDeSuma2Test" classname="gerencialz.testprueba.AppTest" time="0"/>
-  <testcase name="pruebaDeSuma3Test" classname="gerencialz.testprueba.AppTest" time="0.001"/>
-  <testcase name="pruebaDeSuma4Test" classname="gerencialz.testprueba.AppTest" time="0.01">
+  <testcase name="pruebaDeSuma3Test" classname="gerencialz.testprueba.AppTest" time="0"/>
+  <testcase name="pruebaDeSuma4Test" classname="gerencialz.testprueba.AppTest" time="0.004">
     <failure message="La suma ha dejado de ser correcta expected:&lt;-1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La suma ha dejado de ser correcta expected:<-1> but was:<0>
 	at gerencialz.testprueba.AppTest.pruebaDeSuma4Test(AppTest.java:45)
 ]]></failure>
