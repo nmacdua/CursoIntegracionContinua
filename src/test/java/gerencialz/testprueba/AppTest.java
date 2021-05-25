@@ -42,7 +42,7 @@ public class AppTest
     @Test
     public void pruebaDeSuma4Test()
     {
-        assertEquals("La suma ha dejado de ser correcta", -1, App.suma(0, 0));
+        assertEquals("La suma ha dejado de ser correcta", 0, App.suma(0, 0));
     }
    
 }
